@@ -123,7 +123,7 @@ function buildAndShowHomeHTML (categories) {
       // it into the home html snippet.
       //
       // var homeHtmlToInsertIntoMainPage = ....
-      var homeHtmlToInsertIntoMainPage = $dc.loadMenuItems('VG');
+      var homeHtmlToInsertIntoMainPage = $dc.loadMenuItems('L');
       
       console.log("End of Step 3");
       console.log(homeHtmlToInsertIntoMainPage);
