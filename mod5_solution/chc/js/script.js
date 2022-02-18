@@ -123,7 +123,9 @@ function buildAndShowHomeHTML (categories) {
       // it into the home html snippet.
       //
       // var homeHtmlToInsertIntoMainPage = ....
-      var homeHtmlToInsertIntoMainPage = $dc.loadMenuItems("'" + chosenCategoryShortName + "'");
+      categoryN = "'" + chosenCategoryShortName + "'";
+      console.log("Category to show: "+categoryN);
+      var homeHtmlToInsertIntoMainPage = $dc.loadMenuItems(categoryN);
       
       console.log("End of Step 3");
       console.log(homeHtmlToInsertIntoMainPage);
